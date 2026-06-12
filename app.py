@@ -191,14 +191,15 @@ elif choice == "Analyze Resume":
         "Upload Resume (PDF)",
         type=["pdf"]
     )
-
-   jd_text = st.text_area(
-    "Paste Job Description",
-    height=250,
-    placeholder="Paste the complete job description here..."
+    jd_text = st.text_area(
+        "Write your job description",
+        height=250,
+        placeholder="Type your complete job description here.."
     )
 
-    if uploaded_resume and jd_text:
+  
+    analyze_btn = st.button("🔍 Analyze Resume")
+    if uploaded_resume and jd_text and analyze_btn:
 
         resume_text = extract_text_from_pdf(
             uploaded_resume
