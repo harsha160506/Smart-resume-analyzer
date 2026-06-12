@@ -192,23 +192,16 @@ elif choice == "Analyze Resume":
         type=["pdf"]
     )
 
-    uploaded_jd = st.file_uploader(
-        "Upload Job Description (TXT)",
-        type=["txt"]
+   jd_text = st.text_area(
+    "Paste Job Description",
+    height=250,
+    placeholder="Paste the complete job description here..."
     )
 
-    if uploaded_resume and uploaded_jd:
-
-        # -------------------------
-        # READ FILES
-        # -------------------------
+    if uploaded_resume and jd_text:
 
         resume_text = extract_text_from_pdf(
             uploaded_resume
-        )
-
-        jd_text = uploaded_jd.read().decode(
-            "utf-8"
         )
 
         # -------------------------
