@@ -1,0 +1,32 @@
+Data Scientist Intern
+
+We are looking for a motivated Data Scientist Intern with strong analytical and programming skills.
+
+Required Skills:
+
+* Python
+* Machine Learning
+* Deep Learning
+* NLP
+* SQL
+* Data Science
+* TensorFlow
+* PyTorch
+* Git
+* Pandas
+* NumPy
+* Scikit-learn
+* Power BI
+
+Responsibilities:
+
+* Build machine learning models.
+* Perform data cleaning and preprocessing.
+* Develop NLP-based applications.
+* Create dashboards and visualizations.
+* Collaborate with software development teams.
+
+Preferred:
+
+* Experience with Flask or Django.
+* Knowledge of cloud technologies.
